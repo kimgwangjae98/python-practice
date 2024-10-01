@@ -10,11 +10,17 @@ engineering.py 내부에 있는 EngineeringCalculator 클래스의 square_root, 
 해당 패키지의 구조는 아래와 같습니다
 
 calculator/
+
 │
+
 ├── __init__.py
+
 ├── basic.py
+
 ├── engineering.py
+
 ├── utils.py
+
 └── README.md
 
 
