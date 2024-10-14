@@ -23,16 +23,6 @@ calculator/
 
 │
 
-├── __init__.py
-
-├── basic.py
-
-├── engineering.py
-
-├── utils.py
-
-├── calculator
-
 │       ├── __init__.py
 
 │       ├── basic.py
