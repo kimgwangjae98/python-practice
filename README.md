@@ -4,17 +4,6 @@
 
 파이썬 버전 : 3.11.9
 
-<<<<<<< HEAD
-
-
-calculator 패키지는 덧셈, 뺄셈, 곱셈, 나눗셈을 할 수 있는 basic.py 와 제곱근, 제곱, 로그, 삼각함수 계산이 추가된 engineering.py 와 basic.py, engineering.py 의 계산 기능을 보조하기 위한 utils.py 로 구성되어있습니다. ____init__.py 는 과제와 관련된 공지사항을 작성해둔 파일이라 동작은 하지 않습니다.
-
-basic.py 내부에 있는 Calculator 클래스의 add, subtract, multiply, divide 매서드들은 사칙연산을 위한 매서드입니다. 각각 덧셈, 뺄셈, 곱셈, 나눗셈을 수행합니다.
-
-engineering.py 내부에 있는 EngineeringCalculator 클래스의 square_root, power, log, ln, sin, cos, tan 매서드는 차례대로 제곱근, 거듭제곱, 로그, 자연로그, 사인, 코사인, 탄젠트를 수행하는 매서드입니다.
-
-자세한 내용과 설명은 basic.py, engineering.py, utils.py 을 참고해주세요.
-=======
 이전에 계산기 과제를 작성한 코드들의 모음집입니다. 파이썬 함수와 모듈, 패키지를 공부하기 위한 과제이기도 합니다. 옛날에 한 과제 1, 2, 3번 과제를 한 뒤 4번 과제를 calculator 파일에 만들어 패키지를 만들었습니다. 이 코드 모음집은 작성한 과제 백업용이며 과제 작성 중 공부할 때 사용한 자료도 동봉되어있습니다. 
 
 
@@ -26,7 +15,7 @@ calculaotr copy.py 는 calculator.py 의 백업용 파일입니다.
 d.ipynb 은 딕셔너리 쌍 위치 바꾸기를 해설한 코드와 계산기를 만들때 사용한 코드의 초기모델을 기록한 파일입니다.
 docstring_guide.py는 파이썬 문서화를 진행할 때 도움이 되는 자료들을 모아둔 파일입니다.
 swap_dict_with_map_and_lambda.py 는 맵과 람다 함수로 딕셔너리 쌍 위치 바꾸는 코드를 작성한 파일입니다.
->>>>>>> 1e45f70 (갱신)
+
 
 해당 패키지의 구조는 아래와 같습니다
 
@@ -34,7 +23,6 @@ calculator/
 
 │
 
-<<<<<<< HEAD
 ├── __init__.py
 
 ├── basic.py
@@ -42,7 +30,7 @@ calculator/
 ├── engineering.py
 
 ├── utils.py
-=======
+
 ├── calculator
 
 │       ├── __init__.py
@@ -74,7 +62,6 @@ calculator/
 ├── swap_dict_with_map_and_lambda.py
 
 ├── LICENSE
->>>>>>> 1e45f70 (갱신)
 
 └── README.md
 
@@ -189,45 +176,3 @@ ex 추가사항
     - 복소수의 편각 (argument) 계산
     - 직교 좌표계와 극 좌표계 간의 변환
     이 기능을 패키지에 통합하고 적절한 문서화와 테스트를 추가하세요.
-<<<<<<< HEAD
-
-사용예시 
-=================================================
-from basic import Calculator 
-
-a = Calculator()
-
-from engineering import EngineeringCalculator
-
-b = EngineeringCalculator()
-
-print("Basic Calculator Demo:")
-
-calc = Calculator()
-
-print(calc.add(1, 2, 3, precision=2))  # 출력: 6.00
-
-print(calc.subtract(10, 2, 3, return_float=True))  # 출력: 5.0
-
-print(calc.multiply(2, 3, 4))  # 출력: 24
-
-print(calc.divide(100, 2, precision=3))  # 출력: 50.000
-
-print("\nEngineering Calculator Demo:")
-
-eng_calc = EngineeringCalculator()
-
-print(eng_calc.add(1, 2, 3, precision=2))  # 출력: 6.00
-
-print(eng_calc.square_root(16, precision=3))  # 출력: 4.000
-
-print(eng_calc.log(100, precision=4))  # 출력: 2.0000
-
-print(eng_calc.sin(30, angle_unit='degree', precision=4))  # 출력: 0.5000
-
-eng_calc.divide(5, 0) # 에러처리 확인용 코드
-
-=================================================
-
-=======
->>>>>>> 1e45f70 (갱신)
